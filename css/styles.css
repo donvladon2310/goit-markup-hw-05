@@ -637,10 +637,13 @@ margin-right: 30px;
 position: relative;
 } 
 
-.portfolio-list:hover,:focus .portfolio-img-top-text{
+.portfolio-list:hover .portfolio-img-top-text
+{
+    transform: translateY(0) 
+}
+.portfolio-list:focus .portfolio-img-top-text{
     transform: translateY(0)
 }
-
 
 .portfolio-list:nth-child(3n) {
 margin-right: 0;
