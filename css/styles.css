@@ -289,6 +289,7 @@ display: flex;
 }
 .work-photo{
 margin-right: 30px;
+position: relative;
 }
 .work-photo:last-child{
 margin-right: 0;
@@ -303,9 +304,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 margin-bottom: 50px;
 }
-.work-img-div{
-    position: relative;
-}
+
 .work-img-title{
     display: flex;
     align-items: center;
@@ -637,11 +636,11 @@ margin-right: 30px;
 position: relative;
 } 
 
-.portfolio-list:hover .portfolio-img-top-text
+.portfolio-img-link:hover .portfolio-img-top-text
 {
     transform: translateY(0) 
 }
-.portfolio-list:focus .portfolio-img-top-text{
+.portfolio-img-link:focus .portfolio-img-top-text{
     transform: translateY(0)
 }
 
